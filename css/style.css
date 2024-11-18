@@ -5,8 +5,8 @@
 }
 
 :root {
-    --time: 12s;
-    --half-time: 6s;
+    --time: 10s;
+    --half-time: calc(var(--time) / 2);
 }
 
 body {
